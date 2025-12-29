@@ -24,27 +24,30 @@ A full-stack, scalable URL shortening service built with **Node.js**, **Express*
 Follow these steps to run the project locally.
 
 ### 1. Clone the Repository
-```bash
+```
 git clone [https://github.com/YOUR_USERNAME/REPO_NAME.git](https://github.com/YOUR_USERNAME/REPO_NAME.git)
 cd REPO_NAME
+```
 2. Install Dependencies
-Bash
-
+```
 npm install
+```
 3. Configure Environment Variables
 Create a file named .env in the root directory and add the following:
 
 Code snippet
-
+```
 PORT=8001
 MONGODB_URL=mongodb://127.0.0.1:27017/url-shortener
 JWT_SECRET=YourSuperSecretKeyHere
+```
 4. Start the Server
-Bash
 
+```
 npm start
 # or if you use nodemon
 npm run dev
+```
 📖 Usage Guide
 Sign Up: Create a new account at /signup.
 
